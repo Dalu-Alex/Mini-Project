@@ -1,4 +1,5 @@
 Power BI Dashboard Development – Process Explanation
+Overview- Page 1
 
 1. Importing the Dataset:
 The dataset was imported into Power BI Desktop so that it could be analyzed and used for creating visualizations.
@@ -28,5 +29,38 @@ The dashboard layout was improved by adjusting visual sizes, aligning elements p
 9. Enhancing User Experience:
 Formatting options such as titles, backgrounds, labels, and tooltips were applied to make the visuals clearer and easier to understand.
 
-10. Final Dashboard Layout:
-All visuals were arranged properly to ensure the dashboard provides clear insights, easy understanding, and a professional presentation.
+Content Analysis-(Page 2)
+
+1.  Understanding the Data:
+  The dataset was reviewed to understand important fields such as Show ID, Country, Type, Rating, Genre (Listed In)
+   Director, and Release Year.
+
+2. Data Preparation:
+The data types of each column were checked and adjusted where necessary to ensure proper analysis and visualization.
+
+3. Creating Calculated Column:
+A new column called Decade was created from the Release Year to analyze the growth of content over different decades.
+
+4. Designing the Dashboard Layout:
+A report page was created and designed with an Amazon Prime Video themed background to make the dashboard visually appealing and organized.
+
+5. Creating Visualizations:
+Multiple visuals were added to analyze the dataset:
+Stacked Column Chart – Content type distribution by country
+Bar Chart – Top 10 directors by number of shows
+Column Chart – Content growth by decade
+Stacked Bar Chart – Genre distribution by content type
+Pie Chart – Content rating distribution
+
+6. Adding KPI Cards
+Key metrics were displayed using card visuals such as:
+Total Countries
+Average Release Year
+Total Movies
+Total TV Shows
+
+7. Adding Filters:
+Interactive slicers were added for Country, Release Year, Rating, and Type to allow users to filter and explore the dashboard dynamically.
+
+8. Final Dashboard Formatting:
+The visuals were aligned and formatted with consistent colors, borders, and titles to make the dashboard clear, professional, and visually balanced.
